@@ -8,7 +8,7 @@
 	<cms:pageSlot position="Section1" var="comp" element="div" class="productDetailsPageSection1">
 		<cms:component component="${comp}" element="div" class="productDetailsPageSection1-component"/>
 	</cms:pageSlot>
-	<product:productDetailsPanel />
+	<product:productDetailsPanel /> ccccc
 	<cms:pageSlot position="CrossSelling" var="comp" element="div" class="productDetailsPageSectionCrossSelling">
 		<cms:component component="${comp}" element="div" class="productDetailsPageSectionCrossSelling-component"/>
 	</cms:pageSlot>

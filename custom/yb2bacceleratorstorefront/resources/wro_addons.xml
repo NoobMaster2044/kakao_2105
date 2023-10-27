@@ -2,6 +2,8 @@
 
 <groups xmlns="http://www.isdc.ro/wro" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isdc.ro/wro wro.xsd">
    <group name="addons_responsive">
+      <js>/_ui/addons/kakaoaddon/responsive/common/js/kakaoaddon.js</js>
+      <css>/_ui/addons/kakaoaddon/responsive/common/css/kakaoaddon.css</css>
       <js>/_ui/addons/accountsummaryaddon/responsive/common/js/acc.accountsummary.js</js>
       <js>/_ui/addons/b2bacceleratoraddon/responsive/common/js/acc.checkoutsummary.js</js>
       <js>/_ui/addons/b2bacceleratoraddon/responsive/common/js/acc.paymentType.js</js>
