@@ -1,4 +1,0 @@
-INSERT_UPDATE Insurance; code[unique = true]; price ; description[lang = en]                               ; description[lang = es]                               ; description[lang = fr]
-                       ; A100               ; 12.50 ; "This type of insurance is A level and covers 100%." ; "Este tipo de seguro es de nivel A y cubre el 100%." ; "Ce type d'assurance est de niveau A et couvre 100%."
-                       ; A75                ; 10.00 ; "This type of insurance is A level and covers 75%."  ; "Este tipo de seguro es de nivel A y cubre el 75%."  ; "Ce type d'assurance est de niveau A et couvre 75%."
-                       ; A50                ; 7.50  ; "This type of insurance is A level and covers 50%."  ; "Este tipo de seguro es de nivel A y cubre el 50%."  ; "Ce type d'assurance est de niveau A et couvre 50%."

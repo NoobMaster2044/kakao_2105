@@ -1,9 +1,0 @@
-INSERT_UPDATE ServicelayerJob; code[unique = true]; springId[unique = true]; active; sessionUser(uid)
-                             ; timerJob           ; timerJob               ; true  ; admin
-
-INSERT_UPDATE CronJob; code[unique = true]; job(code); sessionLanguage(isocode); active; sessionUser(uid)
-                     ; timerCronJob       ; timerJob ; en                      ; true  ; admin
-
-INSERT_UPDATE Trigger; cronjob(code)[unique = true]; cronExpression   ; active
-                     ; timerCronJob                ; 0 0 0-23 ? * * * ; true
-
