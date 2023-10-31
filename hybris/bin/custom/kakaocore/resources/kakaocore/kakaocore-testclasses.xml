@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><testclasses><kakaocore><testclass>com.kakao.service.impl.DefaultKakaocoreServiceIntegrationTest</testclass><testclass>com.kakao.jalo.KakaocoreTest</testclass></kakaocore></testclasses>

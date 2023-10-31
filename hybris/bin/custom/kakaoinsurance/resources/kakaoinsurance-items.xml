@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<items 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		  xsi:noNamespaceSchemaLocation="items.xsd">
+	<itemtypes>
+		<itemtype code="Insurance" generate="true" autocreate="true">
+			<deployment table="Insurances" typecode="10003"/>
+			<attributes>
+				<attribute qualifier="code" type="java.lang.String">
+					<modifiers optional="false" initial="true" write="true" read="true" unique="true"/>
+					<persistence type="property"/>
+				</attribute>
+				<attribute qualifier="price" type="java.lang.Double">
+					<modifiers optional="false" write="true" read="true"/>
+					<persistence type="property"/>
+				</attribute>
+				<attribute qualifier="description" type="localized:java.lang.String">
+					<modifiers optional="false" write="true" read="true"/>
+					<persistence type="property"/>
+				</attribute>
+			</attributes>
+			<indexes>
+				<index name="codeIDX" unique="true">
+					<key attribute="code" />
+				</index>
+			</indexes>
+		</itemtype>
+	</itemtypes>
+</items>
